@@ -1,0 +1,31 @@
+.app-sport-box {
+	width: 100%;
+	height: inherit;
+}
+
+.app-sport-box__container {
+	display: flex;
+	flex-flow: row nowrap;
+}
+
+.app-sport-box__content {
+	height: 100%;
+	flex: 1;
+	padding: 16px;
+	box-sizing: border-box;
+	background: #181e30;
+	overflow-y: scroll;
+}
+
+@media (min-width: 720px) {
+	.app-sport-box__content {
+		padding: 0 50px 50px 50px;
+	}
+}
+
+@media (min-width: 940px) {
+	.app-sport-box__content {
+		height: 90vh;
+		padding: 50px;
+	}
+}

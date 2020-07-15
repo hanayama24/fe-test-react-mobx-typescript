@@ -1,0 +1,9 @@
+.np-footer {
+	padding-top: 10px;
+	overflow-x: hidden;
+}
+
+.np-footer img {
+	height: 50px;
+	width: auto;
+}

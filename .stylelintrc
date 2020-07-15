@@ -1,0 +1,12 @@
+{
+  "extends": [
+    "stylelint-config-standard",
+    "stylelint-config-css-modules",
+  ],
+  "plugins": [
+    "@namics/stylelint-bem"
+  ],
+  "rules": {
+    "indentation": "tab",
+  }
+}

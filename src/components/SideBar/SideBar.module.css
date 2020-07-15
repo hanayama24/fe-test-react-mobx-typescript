@@ -1,0 +1,148 @@
+.np-sidebar {
+	display: none;
+	width: 352px;
+	height: 90vh;
+	background: #0f152b;
+	padding: 50px;
+	box-sizing: border-box;
+	overflow-y: scroll;
+	scrollbar-width: 2px;
+}
+
+@media (min-width: 940px) {
+	.np-sidebar {
+		display: block;
+	}
+}
+
+.np-sidebar__nav {
+	padding-top: 120px;
+	padding-bottom: 50px;
+}
+
+.np-sidebar__nav-list,
+.np-sidebar__library-list,
+.np-sidebar__playlists-list {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.np-sidebar__nav-list-item {
+	font-size: 14px;
+	line-height: 16px;
+	font-weight: 400;
+	text-transform: uppercase;
+	color: #5abc61;
+}
+
+.np-sidebar__nav-list-item:not(:last-child) {
+	padding-bottom: 30px;
+}
+
+.np-sidebar__home-link,
+.np-sidebar__browse-link,
+.np-sidebar__radio-link {
+	position: relative;
+	padding-left: 45px;
+	text-decoration: none;
+	color: #5abc61;
+}
+
+.np-sidebar__home-link::before,
+.np-sidebar__browse-link::before,
+.np-sidebar__radio-link::before {
+	content: '';
+	display: inline-block;
+	position: absolute;
+	left: 0;
+	top: -3px;
+	width: 22px;
+	height: 22px;
+}
+
+.np-sidebar__home-link::before {
+	background: url('../../../public/icon-home.svg') no-repeat center center;
+}
+
+.np-sidebar__browse-link::before {
+	background: url('../../../public/icon-search.svg') no-repeat center center;
+}
+
+.np-sidebar__radio-link::before {
+	background: url('../../../public/icon-radio.svg') no-repeat center center;
+}
+
+.np-sidebar__library {
+	padding-bottom: 50px;
+}
+
+.np-sidebar__title {
+	margin: 0 0 20px 0;
+	font-size: 12px;
+	line-height: 14px;
+	text-transform: uppercase;
+	color: #e3556d;
+}
+
+.np-sidebar__library-list-item,
+.np-sidebar__playlists-list-item {
+	font-size: 12px;
+	line-height: 14px;
+	font-weight: 400;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+.np-sidebar__library-list-item:not(:last-child),
+.np-sidebar__playlists-list-item:not(:last-child) {
+	padding-bottom: 35px;
+}
+
+.np-sidebar__recently-link,
+.np-sidebar__favorite-link,
+.np-sidebar__artists-link,
+.np-sidebar__albums-link {
+	position: relative;
+	padding-left: 45px;
+	text-decoration: none;
+	color: #fff;
+}
+
+.np-sidebar__recently-link::before,
+.np-sidebar__favorite-link::before,
+.np-sidebar__artists-link::before,
+.np-sidebar__albums-link::before {
+	content: '';
+	display: inline-block;
+	position: absolute;
+	left: 0;
+	top: -3px;
+	width: 22px;
+	height: 22px;
+}
+
+.np-sidebar__recently-link::before {
+	background: url('../../../public/icon-clock.svg') no-repeat center center;
+}
+
+.np-sidebar__favorite-link::before {
+	background: url('../../../public/icon-heart.svg') no-repeat center center;
+}
+
+.np-sidebar__artists-link::before {
+	background: url('../../../public/icon-user.svg') no-repeat center center;
+}
+
+.np-sidebar__albums-link::before {
+	background: url('../../../public/icon-layer.svg') no-repeat center center;
+}
+
+.np-sidebar__playlists {
+	padding-bottom: 50px;
+}
+
+.np-sidebar__playlists-list-item a {
+	text-decoration: none;
+	color: #fff;
+}

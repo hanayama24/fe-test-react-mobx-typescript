@@ -1,0 +1,33 @@
+.np-search-list-item {
+	display: flex;
+	flex-flow: row nowrap;
+	font-size: 14px;
+	text-decoration: none;
+	align-items: center;
+}
+
+.np-search-list-item__item-img {
+	width: 24px;
+	height: 24px;
+	border-radius: 50%;
+	overflow: hidden;
+	margin: 10px;
+}
+
+.np-search-list-item__item-img img {
+	width: 100%;
+	height: auto;
+}
+
+.np-search-list-item__item-name {
+	display: inline-block;
+	padding-left: 15px;
+	font-size: 14px;
+	color: #8b8e97;
+}
+
+.np-search-list-item__letter-badge {
+	text-transform: uppercase;
+	font-size: 14px;
+	color: #8b8e97;
+}

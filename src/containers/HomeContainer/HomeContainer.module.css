@@ -1,0 +1,35 @@
+.np-home-page {
+	overflow-y: visible;
+}
+
+.np-home-page__header {
+	display: flex;
+	flex-flow: row nowrap;
+}
+
+.np-home-page__user-container {
+	flex: 1;
+}
+
+.np-home-page__search-container {
+	position: relative;
+	flex: 1;
+	max-width: 100%;
+	overflow: visible;
+}
+
+@media (min-width: 940px) {
+	.np-home-page__search-container {
+		max-width: 488px;
+	}
+}
+
+.np-home-page__content {
+	overflow: hidden;
+}
+
+.np-home-page__content img {
+	max-width: 678px;
+	width: 100%;
+	height: auto;
+}

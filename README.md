@@ -1,1 +1,2 @@
-# fe-test-react-mobx-typescript
+1. npm install
+2. npm start

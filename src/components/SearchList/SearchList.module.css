@@ -1,0 +1,13 @@
+.np-search-list {
+	position: absolute;
+	top: 50px;
+	left: 0;
+	max-height: 392px;
+	width: 100%;
+	padding: 16px;
+	overflow-y: scroll;
+	background: #181e30;
+	box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+	border-radius: 6px;
+	box-sizing: border-box;
+}
