@@ -11,7 +11,7 @@
     "@material-ui/icons": "^3.0.2",
     "@types/jwt-decode": "^2.2.1",
     "@types/lodash": "^4.14.157",
-    "axios": "^0.18.1",
+    "axios": "^0.21.1",
     "bem-css-modules": "^1.4.1",
     "bizcharts": "^3.5.5",
     "classnames": "^2.2.6",
